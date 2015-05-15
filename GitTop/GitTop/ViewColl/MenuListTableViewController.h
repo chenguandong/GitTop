@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MenuListTableViewController.h
 //  GitTop
 //
 //  Created by chenguandong on 15/5/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface MenuListTableViewController : UITableViewController
 
 @end
-

@@ -13,6 +13,12 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
+#pragma mark --Simple
+@property(nonatomic,assign)BOOL isNetworking;
+
+
+
+#pragma mark --CoreData
 @property (readonly, strong, nonatomic) NSManagedObjectContext *managedObjectContext;
 @property (readonly, strong, nonatomic) NSManagedObjectModel *managedObjectModel;
 @property (readonly, strong, nonatomic) NSPersistentStoreCoordinator *persistentStoreCoordinator;
